@@ -154,3 +154,10 @@ function url_shortcode() {
     return bloginfo('url');
 }
 add_shortcode('wpurl','url_shortcode');
+
+
+function wpb_add_fonts() {
+    wp_enqueue_style( 'moderno', 'https://use.typekit.net/tlv0xra.css', false );
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_fonts' );

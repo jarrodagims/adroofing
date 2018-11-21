@@ -12,7 +12,8 @@
   color: $white;
   transition: transform 300ms ease-in-out;
   border: 0;
-  background: #FF0008;
+  background: $sherpa-brand-primary;
+  border-radius: 40px;
 
   &.btn-default {
     background: #918F8D;
