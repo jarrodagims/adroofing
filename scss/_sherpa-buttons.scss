@@ -4,7 +4,7 @@
 
 
 .btn { 
-  padding: 1.5em 4em;
+  padding: 16px 30px;
   font-size: 12px;
   letter-spacing: 1px;
   font-family: 'Montserrat', sans-serif !important;
@@ -12,7 +12,7 @@
   color: $white;
   transition: transform 300ms ease-in-out;
   border: 0;
-  background: $sherpa-brand-primary;
+  background: rgba(250, 192, 0, 0.5);
   border-radius: 40px;
 
   &.btn-default {
@@ -24,7 +24,7 @@
 
   &.btn-outline {
     border: 2px solid $sherpa-brand-primary;
-    color: $sherpa-brand-primary;
+    color: $white;
     padding: 16px 30px;
     font-size: 10px;
 

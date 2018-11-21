@@ -133,13 +133,10 @@
 
 
 .icon-row {
-  background: #1E242D;
+  background: #fff;
   text-align: center;
   overflow: hidden;
-  border-bottom: 3px solid $sherpa-brand-primary;
   list-style: none;
-
-  
 
   .flex-row {
     justify-content: space-between;
@@ -151,13 +148,30 @@
   .flex-col {
     flex: auto;
     flex-direction: column;
+    position: relative;
 
     a {
-    	padding-top: 1.5em;
-		padding-bottom: 1.5em;
+		padding-top: 2em;
+		padding-bottom: 2em;
     }
-    
+
+
+    &::after {
+    	border-right: 1px solid #CCCCCC;
+		content: '';
+		display: block;
+		height: 50%;
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
+		position: absolute;
+    } 
+
+    &:last-child::after {
+    	display: none;
+    }
   }
+
 
 
   .flex-col a {
@@ -165,8 +179,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    color: $white;
-    font-family: 'Montserrat', sans-serif;
+    color: #606060;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     text-align: center;
     flex-direction: column;
@@ -189,7 +203,7 @@
 	  height: 10px; 
 	  border-left: 7px solid transparent;
 	  border-right: 7px solid transparent;
-	  border-bottom: 7px solid #FF0008;
+	  border-bottom: 7px solid $sherpa-brand-primary;
 	  content: '';
 	  bottom: 0;
 	  opacity: 0;

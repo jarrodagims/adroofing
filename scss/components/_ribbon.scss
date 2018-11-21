@@ -3,13 +3,34 @@
   text-align: center;
   margin-bottom: 0;
   padding: 1em 0;
-  border-bottom: 3px solid $sherpa-brand-primary;
 
   p {
     color: $white;
-    @include raleway();
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    margin: 0;
+    margin: 0 1em 0 0;
+    display: inline;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px; 
+      @include svg-chevron(999);
+      background-repeat: no-repeat;
+      margin-left: 10px;
+    }
+  }
+
+  em {
+    font-family: moderno-fb, serif;
+    color: $white;
+    font-size: 22px;
+
+    .brand {
+      font-style: italic;
+      font-family: moderno-fb, serif;
+    }
   }
 
   @media screen and (max-width: $screen-sm-max) {

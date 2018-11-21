@@ -1,18 +1,32 @@
 .home-module-5 {
-  background: url('../img/bg-banner-middle.jpg') 0 0 no-repeat;
   background-size: cover;
-  padding: 4.5em 0;
-  @include raleway();
+  overflow: hidden;
 
   p {
-    color: $white;
-    font-weight: 700;
-    font-size: 20px;
     margin-bottom: 1em;
   }
 
+  .bg-construction {
+    &:after {
+     background: url('../img/bg-construction.jpg') 0 0 no-repeat;
+     background-size: cover;
+     content: '';
+     display: block;
+     position: absolute;
+     right: -25vw;
+     height: 100%;
+     width: 50vw;
+
+    }
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    .col-md-6 {
+      padding: 3em 0;
+    }
+  }
+
   @media screen and (max-width: $screen-sm-max) {
-    background: url('../img/bg-banner-middle-sm.jpg') 0 0 no-repeat;
     text-align: center;
     font-size: 31px;
     padding: 2em 0;

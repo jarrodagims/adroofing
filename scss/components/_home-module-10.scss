@@ -2,7 +2,7 @@
   color: $white;
   text-align: center;
   padding: 7em 0;
-  background: #FF0008;
+  background: #000;
   border-bottom: 3px solid $sherpa-secondary-color;
 
   h2 {
@@ -14,6 +14,11 @@
   strong {
     font-size: 20px;
     margin-bottom: 1em;
+    display: block;
+  }
+
+  a {
+    margin-top: 2em;
     display: block;
   }
 

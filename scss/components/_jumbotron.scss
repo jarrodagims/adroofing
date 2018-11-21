@@ -12,25 +12,18 @@
     }
 
     h2 {
-        font-size: 36px;
-        letter-spacing: -1px;
-        margin-top: 0;
-        color: $white;
-        font-family: 'Montserrat', sans-serif;
-        margin-bottom: 20px;
-        color: $sherpa-secondary-color;
-        font-weight: 600;
+        @include raleway();
+        color: #fff;
+        font-weight: 300;
     }
 
     a {
-        display: block;
-        margin: 0 auto;
+        display: inline-block;
     }
 
     button {
         font-size: 12px;
         display: flex;
-        padding: 2em 3em;
         margin: 0 auto;
     }
 
