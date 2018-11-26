@@ -4,9 +4,14 @@
   
 }
 
-@media screen and (max-width: $grid-float-breakpoint-max) {
+@media screen and (max-width: $screen-sm-max) {
   .landing-bg {
     background: #000;
+
+    .flex-order {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 
   .flex-row {
@@ -271,7 +276,7 @@ h2.line {
   justify-content: flex-end;
   align-items: center;
   flex-direction: row;
-  background: url('../img/bg-banner-bottom.jpg') 0 0 no-repeat;
+  background: url('../img/banner-bottom.jpg') 0 0 no-repeat;
   color: $white;
   padding-top: 4em;
   padding-bottom: 4em;

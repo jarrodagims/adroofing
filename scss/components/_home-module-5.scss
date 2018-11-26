@@ -16,12 +16,11 @@
      right: -25vw;
      height: 100%;
      width: 50vw;
-
     }
   }
 
   @media screen and (min-width: $screen-md-min) {
-    .col-md-6 {
+    .col-md-6:first-child {
       padding: 3em 0;
     }
   }
@@ -29,12 +28,24 @@
   @media screen and (max-width: $screen-sm-max) {
     text-align: center;
     font-size: 31px;
-    padding: 2em 0;
+    padding: 1em 0 0;
+
+    h2 {
+      font-size: 22px;
+    }
+
+    p.blurb {
+      font-size: 18px;
+    }
 
     p {
-      font-size: 19px;
       line-height: 1.5;
       margin-bottom: 1em;
+      color: #606060;
+    }
+
+    img {
+      margin-top: 1em;
     }
   }
 }

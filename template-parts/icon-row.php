@@ -1,4 +1,4 @@
-<ul class="flex-row">
+<ul class="flex-row hidden-xs hidden-sm">
     <li class="flex-col">
         <a href="<?= SITEURL; ?>/services/auto-body-repair-el-paso/">
             Replacement
@@ -26,8 +26,5 @@
 
     <li class="flex-col">
         <a href="<?= SITEURL; ?>/services/hail-damage-repair-el-paso/">Commercial Roofing</a>
-    </li>
-    <li class="flex-col contact-button">
-       <a href="<?=SITEURL?>/contact-us/">Call Us Today</a>
     </li>
 </ul>

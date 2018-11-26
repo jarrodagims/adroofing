@@ -64,60 +64,27 @@
     background: url('../img/bg-mobile.jpg') 0 0 no-repeat;
     background-size: cover;
     position: relative;
-    
-    ul.social-media {
-      display: none; 
-    }
-
-    .navbar-brand {
-      top: 0;
-      left: 20px;
-      height: 120px;
-
-      img {
-        height: 120px;
-      }
-    }
-
-    .br-xs {
-      display: block;
-    }
 
     .jumbo-content {
+      margin: 0 auto;
+    }
+
+    .jumbotron {
+      text-align: center;
+      padding: 90px 0;
 
       h1 {
-        letter-spacing: 0;
-        font-size: 16px;
-        font-weight: 400;
-        @include raleway();
-
-
-        strong {
-          font-weight: 400;
-          font-size: 25px;
-          font-family: 'Poppins', sans-serif;
-        }
-
-        span.dash {
-          width: 10px;
-          margin-left: 3px;
-
-          &::before {
-            width: 5px;
-            height: 3px;
-          }
-        }
+        font-size: 34px;
+        margin-bottom: 0;
       }
-    }
-   
-    .container {
-      height: 100%;
-      position: relative;
 
+      h2 {
+        margin-top: 0.5em;
+        font-weight: 500;
+      }
 
-      .jumbotron {
-        height: 100%;
-        padding: 140px 15px 80px;
+      h1 em {
+        font-size: 20px;
       }
     }
   }

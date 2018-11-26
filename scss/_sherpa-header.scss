@@ -3,24 +3,16 @@
 }
 
 @media screen and (max-width: $screen-sm-max) {
-  .logo-header {
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    display: flex !important;
-    justify-content: center;
-    
-    .navbar-brand img {
-      height: 55px;
-      width: auto;
-      margin: 0 auto;
-    }
+  
+  .navbar-brand {
+    background: #fff;
+    height: 70px;
+    padding: 10px 0;
   }
 
-  .navbar-brand {
-    position: absolute;
-    left: 0;
-    top: 40px;
+ .navbar-brand img {
+    width: auto;
+    margin: 0 auto;
   }
 }
 

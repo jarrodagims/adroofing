@@ -209,7 +209,7 @@
           margin-right: 10px;
         }
 
-        margin: 0 20px; 
+        margin: 0 10px; 
       }
     }
 
@@ -294,10 +294,6 @@
     }
   }
 
-  .navbar-brand img {
-    height: 120px;
-  }
-
   .top-header {
     z-index: 99;
     right: 0; 
@@ -339,20 +335,7 @@
       top: 46px;
     }
   }
-
-  .jumbotron .navbar-brand {
-    margin: 0 auto;
-    padding-top: 0;
-    padding-bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -20px;
-    z-index: 0;
-
-    img {
-      margin: 0 auto;
-    }
-  }
+  
 
   .menu-primary-container {
     overflow: hidden;
@@ -371,6 +354,7 @@
 
     ul {
       margin-bottom: 0;
+      margin-left: auto;
 
       &.social-media {
         display: flex;
@@ -461,15 +445,15 @@
       padding: 0;
       overflow: hidden;
       position: absolute;
-      top: 45px;
+      top: 65px;
     }
 
     .navbar-toggle {
       position: absolute;
-      right: 0;
+      left: 0;
       z-index: 10;
       border: 0;
-      top: 0;
+      top: -30px;
       transform: translateY(-50%);
       margin-top: 0;
 
@@ -477,8 +461,6 @@
         height: 2px;
         width: 24px;
       }
-
-      
     }
   }
 
@@ -521,19 +503,13 @@
     order: -1;
     width: 100%;
   }
-
-  
-
 }
 
-@media (max-width: $grid-float-breakpoint-max) {
- 
-
+@media (max-width: $screen-sm-max) {
  
   .dropdown-menu {
     box-shadow: none;
     border: 0;
-
   }
 
   .navbar-sherpa {
@@ -542,9 +518,7 @@
     flex-wrap: wrap;
     position: relative;
     top: 0;
-    
     z-index: 9999;
-
 
     .navbar-button {
       left: 0;
@@ -705,7 +679,6 @@
 
   .navbar-sherpa {
     font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
     margin-top: auto;
     margin-left: auto;
 
@@ -724,9 +697,8 @@
       font-weight: 500;
     }
 
-    .nav > li > a {
+    .nav > li > a { 
       padding: 0 0;
-      text-transform: uppercase;
     }
 
 
@@ -784,7 +756,7 @@
   .navbar-sherpa {
     position: absolute;
     right: 0;
-    top: 60px;
+    top: 39px;
     z-index: 9999;
   }
 
@@ -933,7 +905,6 @@
        margin-right: 0;
      }
    }
-
    
 
   .dropdown-menu {
@@ -1078,11 +1049,8 @@
 
 
 .sub-header.top-header {
-
-
   .container {
     position: relative;
-
   }
 
   .navbar-sherpa {
@@ -1156,10 +1124,7 @@
 
   .dropdown-menu {
     background: #000;
-
     text-align: left;  
-
-
   } 
 }
 
@@ -1168,113 +1133,10 @@
   border: 0;
 }
 
-//
-//@media screen and (min-width: $screen-sm-min) {
-//
-//  .open > .dropdown-menu {
-//    -webkit-transform: scale(1, 1);
-//    transform: scale(1, 1);
-//  }
-//
-//  .dropdown-menu {
-//    -webkit-transform-origin: top;
-//    transform-origin: top;
-//    -webkit-animation-fill-mode: forwards;
-//    animation-fill-mode: forwards;
-//    -webkit-transform: scale(1, 0);
-//    display: block;
-//    transition: all 0.2s ease-in-out;
-//    -webkit-transition: all 0.2s ease-in-out;
-//  }
-//  .dropup .dropdown-menu {
-//    -webkit-transform-origin: bottom;
-//    transform-origin: bottom;
-//  }
-//
-//  .dropup > .dropdown-menu:after {
-//    top: auto;
-//    display: inline-block;
-//    bottom: -6px;
-//    content: '';
-//    position: absolute;
-//    left: 50%;
-//  }
-//
-//  .dropdown-menu>li>a {
-//    transition: all 0.2s ease-in-out;
-//  }
-//}
-
-
 
 @media screen and (min-width: $screen-md-min) {
   .navbar-sherpa li.dropdown:hover .dropdown-menu {
     display: block;
     position: absolute;
-  }
-}
-
-
-.banner-top {
-  height: 334px;
-  background: url('../img/bg-banner-internal.jpg') 0 0 no-repeat;
-  background-size: cover;
-
-   @media screen and (min-width: $screen-md-min) {
-    
-    .container {
-      max-width: 1670px;
-      width: 100%;
-    }
-      
-  }
-
-  .navbar-brand {
-   left: 20px;
-   width: auto;
-
-
-    img {
-    }
-  }
-
-
-
-  .social-media-button {
-    color: $white;
-  }
-
-  ul {
-    position: absolute;
-    right: 0;
-    top: 34px;
-  }
-
-  @media screen and (min-width: $screen-md-min) {
-    .navbar-brand {
-      left: 0;
-       width: auto;
-
-       img {
-         height: 220px;
-       }
-    }
-  }
-
-  @media screen and (max-width: $screen-sm-max) {
-    ul {
-      display: none;
-    }
-
-    .navbar-brand {
-      top: 0;
-      
-      img {
-        height: 100px;
-      }
-    }
-
-    height: 100px;
-
   }
 }

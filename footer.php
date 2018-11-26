@@ -1,7 +1,7 @@
     <div id="map-section">
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54277.20563773339!2d-106.36755935680694!3d31.761611010211126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75ac2ec2749e3%3A0xd5fe00d506ac4490!2sAuto+Collision+Center!5e0!3m2!1sen!2sus!4v1542321016528" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13564.618441970673!2d-106.40024!3d31.793536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf8ef377214c06e38!2sA+D+Roofing!5e0!3m2!1sen!2sus!4v1543275676790" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
+
 <section id="footer">
     <div class="container">
             <div class="flex-row row">
@@ -18,44 +18,43 @@
 
                         <div class="contact-footer phone-footer">
                         <div><span class="title">Contact</span>
-
-                            <p>3701 Mattox St Suite A, El Paso, TX 79925<br /><strong>E-mail.</strong> <a href="mailto:eliteautocollision2@gmail.com">eliteautocollision2@gmail.com</a><br />
-                                <strong>PH.</strong> <?php printPhone(); ?></p>
-
+                            <p>6455 Hiller Suite 10, El Paso, Texas 79925<br />
+                                <strong>Call Us Today!</strong> <?php printPhone(); ?></p>
                         </div>
                     </div>
                     <div class="hours-footer">
                         <div>
                             <span class="title">HOURS</span>
-                            <p>Monday - Friday : <strong>8:00 AM - 5:00 PM</strong><br />
-                            Saturday: <strong>By Appointment Only</strong><br />
-                            Sunday: <strong>Closed</strong></p>
+                            <p>Monday - Friday: <strong>7:00am - 7:00pm</strong><br />
+                                Saturday -  Sunday: <strong>Closed</strong></p>
                         </div>
                     </div>
 
                     <div class="button-footer">
-                        <a href="<?= SITEURL ?>/contact-us/">
-                            <button class="btn btn-primary">
-                                GET AN ESTIMATE
-                            </button>
-                        </a>
+                        <img src="<?=IMGURL?>better-business.png" alt="Better Business Bureau" />
                     </div></div>
-                    <div class="visible-xs visible-sm">
-                        <?php $sm = new SocialMedia(array('facebook', 'twitter'));
-                        $sm->setSize('sm');
-                        $sm->showNetworkButtons();
-                        $sm->setColorType('singleColor');
-                        ?>
-                    </div>
                 </div>
             </div>
     </div>
 </section>
-<section class="footer-nav hidden-xs hidden-sm">
+<section class="footer-nav ">
     <div class="container">
-        <div class="row flex-row">
+        <div class="row">
             <div class="col-xs-12">
-                <?php echo non_responsive_bs_menu('footer'); ?>
+                <div class="flex-row">
+                    <div class="flex-col hidden-xs hidden-sm">
+                        <?php echo non_responsive_bs_menu('footer'); ?>
+                    </div>
+                    <div class="flex-col">
+                        <a href=""><button class="btn btn-outline">SCHEDULE AN APPOINTMENT</button></a>
+
+                        <div class="visible-xs visible-sm"><?php $sm = new SocialMedia(array('facebook', 'twitter'));
+                        $sm->setSize('sm');
+                        $sm->showNetworkButtons();
+                        $sm->setColorType('singleColor');
+                        ?></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

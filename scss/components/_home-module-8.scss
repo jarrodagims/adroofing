@@ -1,157 +1,25 @@
 .home-module-8 {
-  background: url('../img/bg-icons.jpg') 0 0 no-repeat;
-  background-size: cover;
-  padding: 3em 0;
-
-  p {
-    color: $white;
-    text-align: center;
-  }
+  text-align: center;
+  padding: 4em 0;
+  border-bottom: 3px solid $sherpa-secondary-color;
 
   h2 {
-    text-align: center;
-    color: $white;
-    margin-bottom: 1em;
+    margin-top: 0;
     font-size: 26px;
   }
 
-  .row:last-child {
+  a {
     margin-top: 2em;
-  }
-
-  .col-md-6:first-child {
-    padding-right: 4em;
-
-
-    &::after {
-      content: '';
-      border-right: 1px solid $sherpa-secondary-color;
-      width: 1px;
-      height: 100%;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  }
-
-  .col-md-6:last-child {
-    padding-left: 8.5em;
-  }
-
-  .icon-row {
-    background: transparent;
-    text-align: left;
-    padding-left: 0;
-    color: $white;
-    border-bottom: 0;
-    text-align: left;
-
-    .flex-col {
-      margin-bottom: 45px;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      height: 67px;
-
-      .title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .icon {
-        width: 87px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        margin-right: 33px;
-        flex-shrink: 0;
-      }
- 
-      svg {
-        flex: 1;
-        max-height: 67px;
-
-        &.svg-inspection {
-          height: 44px;
-        }
-      }
-    }
+    display: block;
   }
 
   @media screen and (max-width: $screen-sm-max) {
-    padding: 0 0;
-
-    .bg {
-      background: url('../img/bg-icons-sm.jpg') 0 0 no-repeat;
-      background-size: cover;
-    }
-
-    background: $white;
-
-    p {
-      color: #000;
-    }
-
+    padding: 2em 0 3em;
+    
     h2 {
-      color: $sherpa-secondary-color;
-      font-size: 19px;
-      margin: 2em 0;
+      font-size: 22px;
+      @include raleway();
     }
 
-    .title {
-      padding: 1.5em 0;
-    }
-
-    .col-md-6:first-child {
-      padding-right: 0;
-    }
-
-    .col-md-6, .col-md-6:last-child {
-      padding-left: 0;
-    }
-
-    .icon-row {
-      width: 100%;
-      margin-bottom: 0;
-
-      .flex-col {
-        width: 100%;
-        margin-bottom: 0;
-        height: auto;
-        padding-right: 2em;
-
-        &:nth-child(odd) {
-          background: rgba(0,0,0,0.5);
-        }
-      }
-
-      .icon {
-        flex-basis: 75px;
-        flex-shrink: 0;
-        background: #1E242D;
-        padding: 20px 0;
-      }
-
-      svg {
-        max-width: 32px;
-      }
-    }
-
-    .col-md-6:last-child {
-      padding-right: 0;
-
-      .icon-row {
-        .flex-col {
-          &:nth-child(odd) {
-            background: transparent;
-          }
-
-          &:nth-child(even) {
-            background: rgba(0,0,0,0.5);
-          }
-        }
-      }
-    }
   }
 }

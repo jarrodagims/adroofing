@@ -49,6 +49,7 @@ body #main .container article #sidebar {
   width: 369px;
   margin-left: 4em;
   text-align: center;
+  background: #151516;
 
   .shadow {
     @include dropshadow();

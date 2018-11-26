@@ -1,5 +1,4 @@
 <div id="sidebar">
-    <div class="shadow">
     <?php if (is_page('contact-us')) : ?>
         <div id="contact-form">
             <?php if ($_SERVER['REMOTE_ADDR'] == '127.0.0.1') {
@@ -12,53 +11,19 @@
     </div>
     <?php endif; ?>
     <?php if (!is_page('contact-us')) : ?>
-        <section class="icon-row">
-                <?php echo get_template_part('template-parts/icon', 'row'); ?>
+        <section>
+            <?php echo get_template_part('template-parts/icon', 'row-sm'); ?>
         </section>
-        <section class="home-module-7">
-            <div class="banner">
-                <div class="flex-row">
-                    <div class="flex-col banner-middle">
-                        <img class="banner-sm" src="<?=IMGURL?>bg-family-sm.jpg" alt="Military Discounts" />
-                    </div>
-                    <div class="flex-col badge-col">
-                        <h2 class=""><span>We Offer</span><br />
-                            MILITARY DISCOUNTS</h2>
-                        <ul>
-                            <li><img src="<?=IMGURL?>badge-airforce.png" alt="" class="military-badge"></li>
-                            <li><img src="<?=IMGURL?>badge-marines.png" alt="" class="military-badge"></li>
-                            <li><img src="<?=IMGURL?>badge-navy.png" alt="" class="military-badge"></li>
-                            <li><img src="<?=IMGURL?>badge-army.png" alt="" class="military-badge"></li>
-                        </ul>
-                        <a class="" href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary">LEARN MORE</button></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
 
-        <section class="home-module-4">
-            <img src="<?=IMGURL?>bg-side-sm.jpg" alt="Auto Insurance" />
-            <ul class="logos">
-                <li>
-                    <img src="<?=IMGURL?>geico.svg" alt="Geico" />
-                </li>
-                <li>
-                    <img src="<?=IMGURL?>progressive.svg" alt="Progressive" />
-                </li>
-                <li>
-                    <img src="<?=IMGURL?>allstate.svg" alt="AllState" />
-                </li>
-                <li>
-                    <img src="<?=IMGURL?>state-farm.svg" alt="State Farm" />
-                </li>
-                <li>
-                    <img src="<?=IMGURL?>usaa.svg" alt="USAA" class="usaa" />
-                </li>
-            </ul>
-        </section>
+        <img src="<?=IMGURL?>years.png" height="262" alt="14 Years" />
+
         <section class="ribbon">
-            <div class="extra-padding"><p>We will work with any insurance agencies not listed*</p></div>
+           <em class="ribbon-em"><span class="brand">10<sup>%</sup></span> Military Discounts</em> <a href=""><button class="btn btn-outline">LEARN MORE</button></a>
         </section>
+
+        <div class="extra-padding"><img src="<?=IMGURL ?>satisfaction-guaranteed.png" alt="100% Satisfaction guaranteed" />
+            <h2>About Our Guarantee & Discounts</h2>
+            <p>We are confident in our services and roofers. For all residential roofing jobs, we offer 100% upon completion. <span class="brand">This means you don’t have to pay us until you see the final result of our labor</span>. At the same time, we offer a ten-year warranty labor guarantee on commercial and residential jobs. </p>
+        </div>
     <?php endif; ?>
 </div>

@@ -6,12 +6,6 @@
 <section class="home-module-1">
 
     <div class="container">
-
-        <?php $sm = new SocialMedia(array('facebook', 'twitter'));
-        $sm->setSize('md');
-        $sm->showNetworkButtons();
-        $sm->setColorType('singleColor');
-        ?>
     <div class="jumbotron">
 
         <div class="jumbo-content">
@@ -28,12 +22,14 @@
             <a href="<?= SITEURL ?>/contact-us/">
                 <button class="btn btn-primary">CONTACT US</button>
             </a>
-
-
         </div>
     </div>
 </div>
+    <div class="visible-sm visible-xs">
+        <?php echo get_template_part('template-parts/icon', 'row-sm'); ?>
+    </div>
 </section>
+
     </div> <!-- end home-bg -->
     <section class="icon-row">
         <div class="container-fluid">
@@ -56,26 +52,14 @@
     </section>
 
 <section class="home-module-3">
+
     <div class="container">
         <div class="row flex-row">
             <div class="col-md-6 flex-col bg-side">
-                <img class="visible-md visible-lg" src="<?=IMGURL?>years.png" alt="14 Years" />
+                <img src="<?=IMGURL?>years.png" alt="14 Years" />
             </div>
             <div class="col-md-6 flex-col">
                 <div class="extra-padding">
-<!--                    <h2><ul class="expand" id="expand">-->
-<!--                            <li>We’re proud to be the best auto body shop in El Paso.</li>-->
-<!--                            <li>Top-rated auto collision services for drivers.</li>-->
-<!--                            <li>We’re happy to be highly reviewed by our customers!</li>-->
-<!--                            <li>We are a local team that is dedicated to serving the community.</li>-->
-<!--                            <li>Make us your go-to auto body shop company.</li>-->
-<!--                            <li>Give us a call for information on quotes.</li>-->
-<!--                            <li>We work quickly and can provide you with time estimates so that you can plan accordingly.-->
-<!--                            </li>-->
-<!--                            <li>Our team is here for all of your car repair needs.</li>-->
-<!--                            <li>In need of dent repair? We’re the team to choose!</li>-->
-<!--                            <li>Elite Auto Collision Center is here for you when you need us most.</li>-->
-<!--                        </ul></h2>-->
 
                     <p class="blurb"><span class="brand">A D Roofing</span> is a locally owned and operated <span class="brand">roofing company</span> in El Paso, Texas with over fourteen years of experience.</p>
 
@@ -85,7 +69,6 @@
             </div>
         </div>
     </div>
-    <img class="visible-sm visible-xs" src="<?=IMGURL?>years.png" alt="14 Years" />
 </section>
 
 <section class="home-module-5">
@@ -106,11 +89,12 @@
             </div>
 
 
-            <div class="col-md-6 bg-construction flex-col">
+            <div class="visible-md visible-lg col-md-6 bg-construction flex-col">
 
             </div>
         </div>
     </div>
+    <img src="<?=IMGURL?>roof-mobile.jpg" class="visible-xs visible-sm" alt="Roof" />
 </section>
 
 <section class="home-module-10">
@@ -150,13 +134,15 @@
 </section>
 
 <section class="home-module-6">
+    <img src="<?=IMGURL?>bg-roof-mobile.jpg" class="hidden-md hidden-lg" alt="Roof" />
+
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 hidden-xs hidden-sm">
                 <img src="<?=IMGURL?>bg-roof.jpg" alt="Roof" />
             </div>
             <div class="col-md-6">
-                <h2>Our Values and Our Promise</h2>
+                <div class="extra-padding"><h2>Our Values and Our Promise</h2>
 
                 <h3>We strive for quality, value, and honesty.</h3>
 
@@ -164,7 +150,7 @@
 
                 <p>At A D Roofing, we are detail oriented and meticulous because we value quality. Our goal is longevity for your roof. We only employ qualified and experienced roofers who are proficient and knowledgeable in this line of work.</p>
 
-                <p>We are confident in all of our roof experts’ performance. That’s why we offer a 100% satisfaction guarantee and a ten-year labor warranty. It’s also why we do payment upon completion of our residential work. We want you to be satisfied and feel that the work you paid for was completed in a thorough and professional way.</p>
+                <p>We are confident in all of our roof experts’ performance. That’s why we offer a 100% satisfaction guarantee and a ten-year labor warranty. It’s also why we do payment upon completion of our residential work. We want you to be satisfied and feel that the work you paid for was completed in a thorough and professional way.</p></div>
             </div>
         </div>
     </div>
@@ -174,11 +160,36 @@
 <section class="home-module-7">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-            </div>
-            <div class="col-md-6">
+            <div class="col-md-6 text-center">
+                <div class="extra-padding"><img src="<?=IMGURL ?>satisfaction-guaranteed.png" alt="100% Satisfaction guaranteed" />
                 <h2>About Our Guarantee & Discounts</h2>
-                <p>We are confident in our services and roofers. For all residential roofing jobs, we offer 100% upon completion. This means you don’t have to pay us until you see the final result of our labor. At the same time, we offer a ten-year warranty labor guarantee on commercial and residential jobs. </p>
+                <p>We are confident in our services and roofers. For all residential roofing jobs, we offer 100% upon completion. <span class="brand">This means you don’t have to pay us until you see the final result of our labor</span>. At the same time, we offer a ten-year warranty labor guarantee on commercial and residential jobs. </p></div>
+            </div>
+            <div class="col-md-6 hidden-xs hidden-sm">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ribbon">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <em class="ribbon-em"><span class="brand">10<sup>%</sup></span> Military Discounts</em> <a href=""><button class="btn btn-outline">LEARN MORE</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="home-module-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <div class="extra-padding"><h2>Contact El Paso’s Best Roofing Company Today</h2>
+                <p>Whether you are in need of a full roof replacement, installation, repair, or maintenance, we are here to provide you with the best service possible. Visit our Services page to find out more about our roofing services and roofing maintenance.</p>
+
+                <p class="no-margin">We are located on the east side of El Paso at 6455 Hiller Suite 10 79925. <strong>Come by our offices or call us today at <?php printPhone(); ?></strong> for the best roofing service in the Sun City. We want to help your roof last longer!</p></div>
             </div>
         </div>
     </div>

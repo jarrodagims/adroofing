@@ -1,3 +1,17 @@
 .home-module-6 {
-  
+  padding: 106px 0;
+
+  @media screen and (max-width: $screen-sm-max) {
+    padding: 0 0 2em;
+    text-align: center;
+     
+
+     h2 {
+       font-size: 22px;
+     }
+
+     h3 {
+       font-size: 19px;
+     }
+  }
 }

@@ -52,30 +52,28 @@
     </p>
     <![endif]-->
 
-    <a class="navbar-brand" href='<?php echo get_site_url(); ?>'><img
-                src="<?= IMGURL; ?>logo.png"
-                alt="<?php echo get_bloginfo(
-                    'description'
-                ); ?>"/></a>
-    <div class="top-header">
-        <div class="container">
-            <div class="row ">
-                <div class="v-align">
-                    <div class="col-xs-12 navbar-button text-center">
-                        <div class="visible-xs"><?php $sm = new SocialMedia(array('facebook', 'twitter'));
-                        $sm->setSize('sm');
-                        $sm->showNetworkButtons();
-                        $sm->setColorType('singleColor');
-                            ?></div>
-                        <?php echo responsive_bs_menu('primary', 'left', SITENAME); ?>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="menu-item directions"><a
-                                        href="<?php echo get_site_url() ?>/contact-us"><span>6455 Hiller Suite 10, El Paso, Texas 79925</span></a></a></li>
-                            <li class="menu-item contact"><a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>"><span>PH. 915.422.1474</span></a></li>
-                        </ul>
+    <div class="flex-order">
+        <a class="navbar-brand" href='<?php echo get_site_url(); ?>'><img
+                    src="<?= IMGURL; ?>logo.png"
+                    alt="<?php echo get_bloginfo(
+                        'description'
+                    ); ?>"/></a>
+        <div class="top-header">
+            <div class="container">
+                <div class="row ">
+                    <div class="v-align">
+                        <div class="col-xs-12 navbar-button text-center">
+                            <?php echo responsive_bs_menu('primary', 'left', SITENAME); ?>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="menu-item directions"><a
+                                            href="<?php echo get_site_url() ?>/contact-us"><span>6455 Hiller Suite 10, El Paso, Texas 79925</span></a></a></li>
+                                <li class="menu-item contact"><a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>"><span>PH. 915.422.1474</span></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
