@@ -15,15 +15,28 @@
             <?php echo get_template_part('template-parts/icon', 'row-sm'); ?>
         </section>
 
-        <img src="<?=IMGURL?>years.png" height="262" alt="14 Years" />
-
         <section class="ribbon">
-           <em class="ribbon-em"><span class="brand">10<sup>%</sup></span> Military Discounts</em> <a href=""><button class="btn btn-outline">LEARN MORE</button></a>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>GUTTERS & REMODELING</p>
+
+                        <em>
+                            Call Us To Get An <span class="brand">Estimate</span>
+                        </em>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <div class="extra-padding"><img src="<?=IMGURL ?>satisfaction-guaranteed.png" alt="100% Satisfaction guaranteed" />
-            <h2>About Our Guarantee & Discounts</h2>
-            <p>We are confident in our services and roofers. For all residential roofing jobs, we offer 100% upon completion. <span class="brand">This means you don’t have to pay us until you see the final result of our labor</span>. At the same time, we offer a ten-year warranty labor guarantee on commercial and residential jobs. </p>
+        <img src="<?=IMGURL?>years.png" height="262" alt="14 Years" />
+
+
+
+        <div class="extra-padding"><img src="<?=IMGURL ?>satisfaction-guaranteed.png" alt="100% Satisfaction guaranteed" class="home-guarantee" />
+            <section class="ribbon">
+                <em class="ribbon-em"><span class="brand">10<sup>%</sup></span> Military Discounts</em> <a href=""><button class="btn btn-outline">LEARN MORE</button></a>
+            </section>
         </div>
     <?php endif; ?>
 </div>

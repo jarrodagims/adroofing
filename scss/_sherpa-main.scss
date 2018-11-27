@@ -171,11 +171,8 @@ body {
         }
 
         ul {
-          
           color: #606060;
         }
-
-
 
         @media screen and (min-width: $screen-md-min) {
 
@@ -408,7 +405,7 @@ body {
       }
 
       .sidebar-content {
-        ul {
+        ul:not(.flex-row) {
         list-style: none;
         padding-left: 1em;
  
