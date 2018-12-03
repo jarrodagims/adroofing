@@ -19,7 +19,7 @@
     cursor: pointer;
 
     &::after {
-      @include svg-arrow(E09105);
+      @include svg-arrow(_trim($sherpa-brand-primary));
       content: '';
       width: 20px;
       height: 20px;

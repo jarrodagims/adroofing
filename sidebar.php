@@ -11,7 +11,7 @@
     </div>
     <?php endif; ?>
     <?php if (!is_page('contact-us')) : ?>
-        <section>
+        <section class="sidebar-top">
             <?php echo get_template_part('template-parts/icon', 'row-sm'); ?>
         </section>
 
@@ -30,7 +30,6 @@
         </section>
 
         <img src="<?=IMGURL?>years.png" height="262" alt="14 Years" />
-
 
 
         <div class="extra-padding"><img src="<?=IMGURL ?>satisfaction-guaranteed.png" alt="100% Satisfaction guaranteed" class="home-guarantee" />

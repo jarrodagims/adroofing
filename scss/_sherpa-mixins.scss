@@ -51,7 +51,7 @@
 	}
 
 	&:hover span::after {
-		@include svg-filled-arrow(ff0000);
+		@include svg-filled-arrow(_trim($sherpa-brand-primary));
 	}
 
 

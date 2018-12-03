@@ -599,6 +599,10 @@
     align-items: center;
     justify-content: space-between;
     margin-left: auto;
+
+    .navbar-right {
+      margin-right: 0;
+    }
   }
 
   .landing-bg {
@@ -643,13 +647,9 @@
 @media screen and (min-width: $screen-lg-min) {
 
   .logo-section {
-    
-
     p {
       font-size: 20px;
     }
-
-    
   }
 
 
@@ -751,11 +751,18 @@
 
 }
 
+@media screen and (max-width: $grid-float-breakpoint-max) {
+
+  .navbar-sherpa {
+    top: 39px;
+  }
+}
+
 @media screen and (max-width: $screen-sm-max) {
 
   .navbar-sherpa {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 39px;
     z-index: 9999;
   }
@@ -802,6 +809,14 @@
       font-size: 12px;
     }
   }
+}
+
+@media screen and (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+
+  .navbar-sherpa {
+    top: 0;
+  }
+
 }
 
 @media screen and (min-width: $screen-sm-min) {
@@ -1022,6 +1037,13 @@
 }
 
 .page-template-default, .blog, .error404, .post-template-default, .page-template-page-landing {
+
+  .top-header {
+    .navbar-collapse.in,
+    .navbar-collapse {
+      top: -5px;
+    }
+  }
   .navbar-right {
 
     li.menu-item {

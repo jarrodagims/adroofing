@@ -133,6 +133,8 @@ body {
           
           span {
             margin-top: 0;
+            color: #606060;
+            font-weight: 300;
           }
           &.no-margin {
             margin-bottom: 0;
@@ -141,8 +143,8 @@ body {
 
         h2, h3 {
           @include raleway();
-          color: #606060;
-          font-size: 25px;
+          color: #000000;
+          font-size: 24px;
         }
 
         p.blurb {
@@ -183,6 +185,12 @@ body {
         }
 
         @media screen and (max-width: $screen-sm-max) {
+
+          h1 span {
+            text-align: center;
+            display: block;
+          }
+
             .columns {
               flex-direction: column;
               display: flex;

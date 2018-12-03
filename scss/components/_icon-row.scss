@@ -153,7 +153,7 @@
     margin: 0; 
     padding: 0;
     position: relative;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .flex-col {
@@ -279,6 +279,15 @@ body #main .container article #sidebar {
 	
   .icon-row {
   	@include icon-small();
+
+  	.flex-col:last-child {
+			li {
+			background: rgba(0,0,0,0.7);
+			&:nth-child(even) {
+				background: rgba(0,0,0,0.36);
+			}
+		}
+	  }
   } 
 
 }

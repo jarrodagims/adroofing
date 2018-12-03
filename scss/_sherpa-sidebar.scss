@@ -53,7 +53,7 @@ body #main .container article #sidebar {
 
   .home-guarantee {
     width: 150px;
-    margin-top: 30px;
+    margin-top: 1em;
   }
 
   .extra-padding {
@@ -123,6 +123,46 @@ body #main .container article #sidebar {
 }
 
 body #main .container article #sidebar {
+
+  .sidebar-top {
+    background: url('../img/bg-sidebar-top.jpg') 0 0 no-repeat;
+    background-size: cover;
+    padding-top: 338px;
+  }
+
+  .ribbon {
+    p {
+      color: #fff;
+      font-size: 10.5px;
+      font-family: 'Poppins', sans-serif;
+      position: relative;
+
+      &::after {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    em {
+      font-size: 13px;
+    }
+  }
+
+  .extra-padding .ribbon {
+    em {
+      font-size: 27px;
+    }
+
+    .btn {
+      font-size: 9px;
+      padding: 1.5em 3em;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+  }
 
 //   z-index: 9999;
   position: relative;
@@ -398,7 +438,6 @@ body #main .container article #sidebar {
     max-width: 100%;
     margin-left: 0;
     margin-bottom: 2em;
-    background: none;
     padding: 0;
     width: 100%;
   }
