@@ -99,7 +99,7 @@
 }
 
 @mixin svg-chevron($color) {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.06 25.06"><title>svg-chevron</title><g id="aeee418e-c002-40b6-8105-18a87ebf37b9" data-name="Layer 2"><g id="a34afccf-d5ba-492c-9581-57f2d787181a" data-name="Layer 7"><path d="M12.53,25.06A12.53,12.53,0,1,1,25.06,12.53,12.54,12.54,0,0,1,12.53,25.06Zm0-24.22A11.69,11.69,0,1,0,24.22,12.53,11.7,11.7,0,0,0,12.53.84Z" fill="%23999"/><polygon points="9.78 18.48 10.39 19.09 16.96 12.53 10.39 5.97 9.78 6.58 15.73 12.53 9.78 18.48" fill="#999"/></g></g></svg>')
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.4 13.4"><title>icon-arrow</title><g id="b970790d-0287-40d8-bdfb-ebaf2d8b22d4" data-name="Layer 2"><g id="b340a95a-a272-4cf2-980d-3b0f87d6834f" data-name="Layer 7"><path d="M6.7,13.4a6.7,6.7,0,1,1,6.7-6.7A6.71,6.71,0,0,1,6.7,13.4ZM6.7.45A6.25,6.25,0,1,0,13,6.7,6.25,6.25,0,0,0,6.7.45Z" fill="%23999"/><polygon points="5.23 9.88 5.56 10.21 9.07 6.7 5.56 3.19 5.23 3.52 8.41 6.7 5.23 9.88" fill="%23999"/></g></g></svg>')
 }
 
 @mixin svg-filled-arrow($color) {

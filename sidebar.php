@@ -2,9 +2,9 @@
     <?php if (is_page('contact-us')) : ?>
         <div id="contact-form">
             <?php if ($_SERVER['REMOTE_ADDR'] == '127.0.0.1') {
-                echo do_shortcode('[contact-form-7 id="74" title="Contact Form"]');
+                echo do_shortcode('[contact-form-7 id="99" title="Contact Us"]');
             } else {
-                echo do_shortcode('[contact-form-7 id="74" title="Contact Form"]');
+                echo do_shortcode('[contact-form-7 id="99" title="Contact Us"]');
             }
             ?>
         </div>
@@ -34,7 +34,7 @@
 
         <div class="extra-padding"><img src="<?=IMGURL ?>satisfaction-guaranteed.png" alt="100% Satisfaction guaranteed" class="home-guarantee" />
             <section class="ribbon">
-                <em class="ribbon-em"><span class="brand">10<sup>%</sup></span> Military Discounts</em> <a href=""><button class="btn btn-outline">LEARN MORE</button></a>
+                <em class="ribbon-em"><span class="brand">10<sup>%</sup></span> Military Discounts</em> <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-outline">LEARN MORE</button></a>
             </section>
         </div>
     <?php endif; ?>

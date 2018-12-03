@@ -5,7 +5,7 @@
 
 .btn { 
   padding: 16px 30px;
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 1px;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 600;
@@ -25,6 +25,7 @@
   &.btn-outline {
     border: 2px solid $sherpa-brand-primary;
     color: $white;
+    padding: 1.5em 1em;
 
     &:hover {
       background: $sherpa-brand-primary;
@@ -68,11 +69,11 @@
 }
  
 
-.btn-read-more {
+.btn.btn-read-more {
   margin-top: auto; 
+  background: $sherpa-brand-primary;
 
   &.btn-border {
-    background: rgba(41,41,44,0.63);
     color: $white;
 
     &:hover {

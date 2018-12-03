@@ -9,7 +9,7 @@
     <div class="jumbotron">
 
         <div class="jumbo-content">
-            <h1 class="expander" data-target="#expand"><em>El Paso’s</em>
+            <h1><em>El Paso’s</em>
                 Roofing Company
             </h1>
 
@@ -41,7 +41,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <p>GUTTERS & REMODELING</p>
+                    <p><a href="<?= SITEURL ?>/contact-us/">GUTTERS & REMODELING</a></p>
 
                     <em>
                         Call Us To Get An <span class="brand">Estimate</span>
@@ -108,7 +108,7 @@
 
                         <p>A D Roofing has been working the entire El Paso area for more than a decade. We have seen this city grow and have helped many people take care of their roofing needs. We are located on the east side of town on 6455 Hiller, Suite 10. While our offices are here, we work all throughout the city. Upon our appointment, we will come to your house and give you a free estimate. Whether you’re looking to replace the entire roof or simply perform routine maintenance. </p>
 
-                        <a href=""><button class="btn btn-outline">SCHEDULE AN APPOINTMENT</button></a>
+                        <a href="<?= SITEURL ?>/contact-us/"><button class="btn btn-outline">SCHEDULE AN APPOINTMENT</button></a>
 
                     </div>
 

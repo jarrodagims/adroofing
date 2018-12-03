@@ -67,7 +67,7 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="menu-item directions"><a
                                             href="<?php echo get_site_url() ?>/contact-us"><span>6455 Hiller Suite 10, El Paso, Texas 79925</span></a></a></li>
-                                <li class="menu-item contact"><a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>"><span>PH. 915.422.1474</span></a></li>
+                                <li class="menu-item contact"><a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>"><span>Call Us Today! <?php printPhone(); ?></span></a></li>
                             </ul>
                         </div>
                     </div>

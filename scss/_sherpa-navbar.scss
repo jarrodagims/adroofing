@@ -142,7 +142,7 @@
 .top-header {
   background: #000; 
   display: flex; 
-  padding: 34px 0; 
+  padding: 44px 0; 
  
   a.arrow {
     margin-left: auto;
@@ -196,7 +196,7 @@
 .navbar-right {
  
   li.menu-item {
-    line-height: 16px;
+    line-height: 14px;
     &.directions,
     &.contact {
       display: inline-block;
@@ -237,7 +237,7 @@
     &.directions a {
       background-size: contain;
       background-repeat: no-repeat;
-
+      
     }
 
     &.contact a {
@@ -912,7 +912,7 @@
 
      li.menu-item {
        margin-left: 0;
-       margin-right: 35px;
+       margin-right: 25px;
      }
 
      li.menu-item.birthday-booking {
@@ -969,16 +969,10 @@
   }
 }
 
-@media screen and (min-width: $screen-md-min) {
-  .navbar-sherpa li.menu-item {
-    letter-spacing: 1px;
-  }
-}
 
 @media screen and (min-width: $screen-lg-min) {
   .navbar-sherpa li.menu-item {
     font-size: 11px;
-    letter-spacing: 1px;
 
     &.logo-menu {
       text-indent: -9999px;
