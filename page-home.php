@@ -58,10 +58,10 @@
             <div class="col-md-6 flex-col bg-side">
                 <img src="<?=IMGURL?>years.png" alt="14 Years" />
             </div>
-            <div class="col-md-6 flex-col">
+            <div class="col-md-5  col-md-offset-1 flex-col">
                 <div class="extra-padding">
 
-                    <p class="blurb"><span class="brand">A D Roofing</span> is a locally owned and operated <span class="brand">roofing company</span> in El Paso, Texas with over fourteen years of experience.</p>
+                    <p class="blurb"><span class="brand">A D Roofing</span> is a locally owned <span class="br-md">and operated <span class="brand">roofing company</span> <span class="br-md">in El Paso, Texas with over <span class="br-md">fourteen years of experience.</span></span></span></p>
 
                     <p>A D Roofing is a locally owned and operated roofing company in El Paso, Texas with over fourteen years of experience. We have serviced and worked on every kind of roofing scenario possible including full installations, replacements, routine maintenance, and storm and wind damage.
                     </p>
@@ -89,7 +89,7 @@
             </div>
 
 
-            <div class="visible-md visible-lg col-md-6 bg-construction flex-col">
+            <div class="visible-md visible-lg col-md-5 col-md-offset-1 bg-construction flex-col">
 
             </div>
         </div>
@@ -119,11 +119,11 @@
 
 <section class="home-module-4">
     <div class="container">
-        <div class="row">
+        <div class="flex-row row">
             <div class="col-md-6">
 
             </div>
-            <div class="col-md-6">
+            <div class="flex-col col-md-5 col-md-offset-1">
                 <h2>The Importance of Maintenance</h2>
 
                 <p>We stress the importance of maintaining and servicing your roof with regularity. To ensure there are no issues, we offer regular maintenance service and inspections. Our roofers will look for any trouble spots and if there are any, we will fix and stop the problem from becoming a bigger (and more expensive) issue.</p>
@@ -141,7 +141,7 @@
             <div class="col-md-6 hidden-xs hidden-sm">
                 <img src="<?=IMGURL?>bg-roof.jpg" alt="Roof" />
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5 col-md-offset-1">
                 <div class="extra-padding"><h2>Our Values and Our Promise</h2>
 
                 <h3>We strive for quality, value, and honesty.</h3>

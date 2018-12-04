@@ -5,11 +5,13 @@
 
   h2 {
     color: $white;
+    font-size: 30px;
   }
 
-  .col-md-6:last-child {
-    padding-top: 20em;
+  .col-md-5:last-child {
+    height: 631px;
     padding-bottom: 4em;
+    justify-content: flex-end;
   } 
 
   @media screen and (max-width: $screen-sm-max) {

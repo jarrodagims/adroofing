@@ -1,6 +1,18 @@
 .home-module-6 {
   padding: 106px 0;
 
+  h2 {
+    font-size: 30px;
+    margin-top: 0;
+    @include raleway();
+  }
+
+  h3 {
+    font-size: 24px;
+    @include raleway();
+    margin-bottom: 1.5em;
+  }
+
   @media screen and (max-width: $screen-sm-max) {
     padding: 0 0 2em;
     text-align: center;

@@ -2,8 +2,17 @@
   background-size: cover;
   overflow: hidden;
 
+  h2 {
+    font-size: 30px;
+  }
+
   p {
     margin-bottom: 1em;
+  }
+
+  p.blurb {
+    font-size: 21px;
+    color: #898989;
   }
 
   .bg-construction {
@@ -13,7 +22,7 @@
      content: '';
      display: block;
      position: absolute;
-     right: -25vw;
+     right: -30vw;
      height: 100%;
      width: 50vw;
     }
@@ -21,7 +30,7 @@
 
   @media screen and (min-width: $screen-md-min) {
     .col-md-6:first-child {
-      padding: 3em 0;
+      padding: 5.5em 0;
     }
   }
 
