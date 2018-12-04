@@ -25,6 +25,10 @@
         font-size: 11px;
         display: flex;
         margin: 0 .5em auto;
+
+        &.btn-outline {
+            padding: 1.5em 1em;
+        }
     }
 
     @media screen and (max-width: $screen-sm-max) {

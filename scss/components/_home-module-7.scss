@@ -1,5 +1,5 @@
 .home-module-7  {
-  background: url('../img/bg-flag.jpg') 0 0 no-repeat;
+  background: url('../img/bg-flag.jpg') center center no-repeat;
   background-size: cover;
 
   .col-md-6:first-child {
@@ -28,6 +28,8 @@
 
     h2 {
       color: $white;
+      font-size: 30px;
+      @include raleway();
     }
   }
 

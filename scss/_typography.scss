@@ -15,7 +15,7 @@ h4 {
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  @include raleway();
   color: #1A1A1A;
   font-weight: 300;
   margin-bottom: 1em;
