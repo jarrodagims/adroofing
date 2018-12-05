@@ -190,7 +190,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <div class="extra-padding"><h2>Contact El Paso’s Best Roofing Company Today</h2>
+                    <div class="extra-padding"><h2>Contact El Paso’s Best <span class="br-xs">Roofing Company Today</span></h2>
                         <p>Whether you are in need of a full roof replacement, installation, repair, or maintenance, we are here to provide you with the best service possible. Visit our Services page to find out more about our roofing services and roofing maintenance.</p>
 
                         <p class="no-margin">We are located on the east side of El Paso at 6455 Hiller Suite 10 79925. <strong>Come by our offices or call us today at <?php printPhone(); ?></strong> for the best roofing service in the Sun City. We want to help your roof last longer!</p></div>

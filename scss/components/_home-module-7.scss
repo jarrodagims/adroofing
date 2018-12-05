@@ -34,10 +34,19 @@
   }
 
   @media screen and (max-width: $screen-sm-max) {
+    background: url('../img/bg-flag-sm.jpg') 50% 100% no-repeat;
+    background-size: cover;
 
     img {
       width: 140px;
       height: 140px;
+    }
+
+    .col-md-6:first-child {
+        &::before {
+          width: 150vw;
+          right: -50vw;
+        }
     }
 
     .col-md-6:first-child h2 {

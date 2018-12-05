@@ -885,8 +885,24 @@ span.wpcf7-not-valid-tip {
     display: flex;
     flex-direction: column;
 
+    .home-module-4 {
+      order: 0;
+    }
+
     .ribbon {
-      order: -1;
+      order: 1;
+    }
+
+    .home-module-6 {
+      order: 2;
+    }
+
+    .home-module-7 {
+      order: 3;
+    }
+
+    .home-module-8 {
+      order: 4;
     }
   }
 }
