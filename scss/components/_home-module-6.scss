@@ -14,12 +14,25 @@
   }
 
   @media screen and (max-width: $screen-sm-max) {
-    padding: 0 0 2em;
+    padding: 2.5em 0 0;
     text-align: center;
+
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
      
+    .roof-image {
+      margin-bottom: 3em;
+      margin-left: -70px;
+      transform: scaleX(2);
+      height: auto;
+      background: url('../img/bg-roof-mobile.jpg') 0 0 no-repeat;
+      background-size: cover;
+    }
 
      h2 {
        font-size: 22px;
+       margin-bottom: 1.5em;
      }
 
      h3 {

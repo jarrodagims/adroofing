@@ -1,7 +1,6 @@
 .home-module-8 {
   text-align: center;
-  padding: 4em 0;
-  border-bottom: 3px solid $sherpa-secondary-color;
+  padding: 6.5em 1em;
 
   h2 {
     margin-top: 0;
@@ -14,7 +13,7 @@
   }
 
   @media screen and (max-width: $screen-sm-max) {
-    padding: 2em 0 3em;
+    padding: 3em 0;
     
     h2 {
       font-size: 22px;

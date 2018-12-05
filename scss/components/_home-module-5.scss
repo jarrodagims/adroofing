@@ -41,20 +41,23 @@
 
     h2 {
       font-size: 22px;
+      
     }
 
     p.blurb {
       font-size: 18px;
+      line-height: 1.75;
     }
 
     p {
-      line-height: 1.5;
+      line-height: 1.75;
       margin-bottom: 1em;
       color: #606060;
+      font-size: 15px;
     }
 
     img {
-      margin-top: 1em;
+      margin: 1em auto 0;
     }
   }
 }

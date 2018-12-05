@@ -879,3 +879,14 @@ span.wpcf7-not-valid-tip {
   margin-top: -10px; 
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: $screen-sm-max) {
+  .flex-order {
+    display: flex;
+    flex-direction: column;
+
+    .ribbon {
+      order: -1;
+    }
+  }
+}

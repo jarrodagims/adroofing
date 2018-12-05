@@ -58,8 +58,21 @@
   }
 
   @media screen and (max-width: $screen-sm-max) {
-    p {
-      font-size: 12px;
+
+    padding: 2em 0;
+
+    .ribbon-em {
+      margin: 0 0;
+      font-size: 25px;
+    }
+    
+    p, p a {
+      font-size: 9px;
+
+      &::after {
+        width: 14px;
+        height: 14px;
+      }
     }
 
     em {

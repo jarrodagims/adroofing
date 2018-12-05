@@ -1,5 +1,5 @@
 .home-module-7  {
-  background: url('../img/bg-flag.jpg') center center no-repeat;
+  background: url('../img/bg-flag.jpg') 50% 100% no-repeat;
   background-size: cover;
 
   .col-md-6:first-child {
@@ -34,8 +34,20 @@
   }
 
   @media screen and (max-width: $screen-sm-max) {
+
+    img {
+      width: 140px;
+      height: 140px;
+    }
+
+    .col-md-6:first-child h2 {
+      font-size: 19px;
+      font-weight: 400;
+      margin-top: 2.5em;
+    }
+
     .col-md-6:first-child .extra-padding {
-      padding: 2em 15px 1em;
+      padding: 2em 15px 2.5em;
     }
   }
 }

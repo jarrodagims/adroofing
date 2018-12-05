@@ -61,6 +61,12 @@
     }
   }
 
+ @media screen and (min-width: $screen-lg-min) {
+  .jumbotron {
+    padding: 0 0;
+  }
+ }
+
   @media screen and (min-width: $screen-md-min) {
     .container {
       position: relative;
@@ -78,16 +84,17 @@
 
     .jumbotron {
       text-align: center;
-      padding: 90px 0;
+      padding: 70px 0 80px;
 
       h1 {
         font-size: 34px;
-        margin-bottom: 0;
+        margin-bottom: 0.25em;
       }
 
       h2 {
-        margin-top: 0.5em;
+        margin-top: 0em;
         font-weight: 500;
+        font-size: 18px;
       }
 
       h1 em {

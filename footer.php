@@ -18,15 +18,14 @@
 
                         <div class="contact-footer phone-footer">
                         <div><span class="title">Contact</span>
-                            <p>6455 Hiller Suite 10, El Paso, Texas 79925<br />
-                                <strong>Call Us Today!</strong> <?php printPhone(); ?></p>
+                            <p>6455 Hiller Suite 10, <span class="br-xs">El Paso, Texas 79925</span><br />
+                                <strong>Call Us Today!</strong> <span class="br-xs"><?php printPhone(); ?></span></p>
                         </div>
                     </div>
                     <div class="hours-footer">
                         <div>
-                            <span class="title">HOURS</span>
-                            <p>Monday - Friday: <strong>7:00am - 7:00pm</strong><br />
-                                Saturday -  Sunday: <strong>Closed</strong></p>
+                            <span class="title">Office HOURS</span>
+                            <p>Monday - Friday: <span class="br-xs"><strong>7:00am - 7:00pm</strong></span><br />Saturday -  Sunday: <span class="br-xs"><strong>Closed</strong></span></p>
                         </div>
                     </div>
 

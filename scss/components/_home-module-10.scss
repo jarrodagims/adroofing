@@ -17,6 +17,10 @@
     display: block;
   }
 
+  .btn.btn-outline {
+    padding: 1.5em 2em;
+  }
+
   a {
     margin-top: 2em;
     display: block;
@@ -30,8 +34,9 @@
     }
 
     h2 {
-      font-size: 18px;
+      font-size: 19px;
       @include raleway();
+      font-weight: 400;
     }
 
     p {
@@ -46,6 +51,11 @@
       display: block;
       font-size: 19px;
       @include raleway();
+    }
+
+    .btn.btn-outline {
+      padding: 1.5em 1em;
+      font-size: 8px;
     }
   }
 }
