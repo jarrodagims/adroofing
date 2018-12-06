@@ -178,8 +178,8 @@
 
     <section class="ribbon">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+            <div class="row flex-row">
+                <div class="col-md-12 flex-col">
                     <em class="ribbon-em"><span class="brand">10<sup>%</sup></span> Military Discounts</em> <a href=""><button class="btn btn-outline">LEARN MORE</button></a>
                 </div>
             </div>

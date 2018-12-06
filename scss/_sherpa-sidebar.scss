@@ -51,13 +51,22 @@ body #main .container article #sidebar {
   text-align: center;
   background: #151516;
 
+  .ribbon {
+    padding: 1em 0;
+  }
+
   .home-guarantee {
     width: 150px;
-    margin-top: 1em;
+    margin-top: 2em;
+    margin-bottom: 0;
   }
 
   .extra-padding {
     background: #000;
+
+    .ribbon {
+      padding: 1em 0 2em;
+    }
   }
 
   .shadow {
@@ -130,6 +139,10 @@ body #main .container article #sidebar {
     padding-top: 338px;
   }
 
+  .btn.btn-outline {
+    padding: 1em 4em;
+  }
+
   .ribbon {
     p {
       color: #fff;
@@ -153,16 +166,14 @@ body #main .container article #sidebar {
 
   .extra-padding .ribbon {
     em {
-      font-size: 27px;
-    }
-
-    .btn {
-      font-size: 9px;
-      padding: 1.5em 3em;
-      margin-top: 1em;
-      margin-bottom: 1em;
+      font-size: 26px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
     }
   }
+
 
 //   z-index: 9999;
   position: relative;
@@ -429,6 +440,7 @@ body #main .container article #sidebar {
     margin-bottom: 2em;
     padding-top: 0;
     z-index: 99;
+
   }
 }
 
